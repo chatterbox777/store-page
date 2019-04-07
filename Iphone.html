@@ -31,11 +31,11 @@
                 Купон активирован!
         </div>
         <div class="count-sum-sale">
-                <span class = "before-sum">19 980 руб.</span>
+                <span class = "before-sum">50 980 руб.</span>
                 <span class="before2-sum">-80%</span>
         </div>
         <div class="count-head-sum">
-                <span class="new-sum">9990 руб.</span>
+                <span class="new-sum">10 196 руб.</span>
         </div>
         <div class="count-sum-btn">
         <button class="count-sum-btn-style">Заказать со скидкой</button>
@@ -58,8 +58,16 @@
 </div>
 <hr />
 </nav>
-<main>
-
+<main class="divrooms">
+<div class="description" id="page1">
+        <div class="container">
+                <div class="row">
+                        <div class="phoneimg">
+                                <img id="example" height="200" src="iphoneforjs1.jpg">
+                        </div>
+                </div>
+        </div>
+</div>
 </main>
 <aside>
 
@@ -67,5 +75,17 @@
 <footer>
 
 </footer>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="okzoom.js"></script>
+<script>
+                $(function(){
+                    $('#example').okzoom({
+                        width: 200,
+                        height: 200,
+                        border: "1px solid black",
+                        shadow: "0 0 5px #000"
+                    });
+                });
+            </script>
         </body>
 </html>
