@@ -117,6 +117,7 @@ nav .row {
     box-shadow: 0 6px 6px -7px;
     border-bottom: 2px solid transparent;
 }
+
 .menu a {
     
 }
@@ -137,4 +138,53 @@ hr {
     width: 1067px;
     margin-top: 0;
     box-shadow: 2px 2px 5px 1px lightgrey;
+}
+.productsinfo ul {
+    padding-left: 15px;
+    color: #6b6b6bf2;
+    font-size: 15px;
+}
+.productsinfo {
+    margin: 0 103px;
+    height: 170px;
+    width: 333px;
+}
+.appleimg {
+    width: 50px;
+    height: 50px;
+}
+.logoapple {
+    margin: 0 103px;
+}
+.mainboxpage1 {
+    display: flex;
+    flex-direction: column;
+}
+.productsinfo p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #222;
+}
+.divrooms .delivery {justify-content: flex-end;margin-left: 235px;width: 250px;height: 119px;box-shadow: 0px 5px 9px 0px lightgrey;}
+.newcount {
+
+}
+.new-price-btn {
+    width: 200px;
+    height: 52px;
+    background: #f2df00;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 18px;
+    margin: 27px auto;
+    display:block;
+}
+.new-price-btn:hover {
+    cursor: pointer;
+}
+.delivery p {
+    text-align: left;
+    margin: 8px 27px;
+    color: grey;
 }
