@@ -188,7 +188,7 @@ margin: 8px 27px;
 color: grey;
 }
 
-@media (max-width: 640px) {
+@media screen and (max-width: 640px) {
     header  .container{
         display: flex;
     }
