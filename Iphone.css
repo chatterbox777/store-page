@@ -188,7 +188,7 @@ margin: 8px 27px;
 color: grey;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 640px) {
     header  .container{
         display: flex;
     }
@@ -196,21 +196,21 @@ color: grey;
         flex-direction: column;
     }
    .logo {
-    width: 300px;
+    width: 600px;
     margin: 10px;
    }
 
    .title-a {
-    width: 300px;
+    width: 600px;
     margin: 10px;
    }
    .title-h1 {
-    width: 300px;
+    width: 600px;
     margin: 10px;
    }
 
 .count {
-    width: 300px;
+    width: 600px;
     margin: 10px;
 }
 .row {
@@ -218,16 +218,16 @@ color: grey;
 }
 .divrooms .delivery {
     margin-left: 0px;
-    width: 300px;
+    width: 600px;
 }
 .divrooms .productsinfo {
     margin-left: 0px;
-    width: 300px; 
+    width: 600px; 
 }
 
 nav .container .menu ul {
     flex-direction: column;
-    width: 300px; 
+    width: 600px; 
     margin: 10px;
 }
 nav .container .menu li {
