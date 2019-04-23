@@ -285,3 +285,18 @@ box-shadow: 1px black;
   .cl4 {
     background-color:#222;
   }
+
+  .container_page3 li {
+      padding-left: 50px;
+      margin-bottom: 20px;
+      line-height: 1.5em;
+  }
+  .ex1 {
+font-size: 18px;
+color: #33c;
+font-weight: bold;
+  }
+  .ex2 {
+    font-size: 15px;
+    color: #070;
+  }
