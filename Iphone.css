@@ -235,3 +235,53 @@ nav .container .menu li {
 }
 
 }
+
+.h1_page2 {
+    padding: 34px;
+    font-size: 21px;
+    margin-top: 50px;
+    border-bottom: 1px solid lightgrey;
+}
+.h1_page2::after {
+color: black;
+box-shadow: 1px black;
+}
+
+.button_description_page2 {
+    width: 183px;
+    height: 47px;
+    border-radius: 4px;
+}
+.button_description_page2:hover {
+    cursor: pointer;
+}
+.liner {
+    display: inline-block;
+    width: 20%;
+    border: 1px dashed #cbcbcb;
+}
+
+  .cl1, .cl2, .cl3, .cl4, .cl5 {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50px;
+    margin: 0 3px; 
+  } 
+
+
+  .cl1 {
+    background-color: #ff5a5a;
+  }
+  .cl2 {
+    background-color: #fd01d3;
+  }
+  .cl3 {
+    background-color: #5adeff;
+  }
+  .cl4 {
+    background-color: #8cb400;
+  }
+  .cl4 {
+    background-color:#222;
+  }
