@@ -122,7 +122,7 @@ nav .row {
 }
 .menu li {
     padding: 13px 55px;
-    box-shadow: 0px 3px 3px #969191;
+    box-shadow: 1px 3px 3px #969191;
     background: #f4f4f4;
     color: black;
 }
@@ -189,8 +189,46 @@ color: grey;
 }
 
 @media (max-width: 321px) {
-    header  .container{
+    .title-h1 span::after {
+        content: "";
+        position: absolute;
+        top: 295px;
+        left: 1130,5px;
+        border-top: 10.5px solid transparent;
+        border-left: 9px solid #8cb400;
+        border-bottom: 10.5px solid transparent;
+    }
+    .appleimg {
+        text-align: left;
+    }
+    .logoapple {
+margin-top: 47px;
+    }
+    .phoneimg {
+        width: 100%;
+        text-align: center;
+    }
+    nav {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    main {
+        width: 100%;
+    }
+
+    hr {
+        display: block;
+        width: 100%;
+    }
+    .container {
         display: flex;
+        width: 100%;
+        box-sizing: border-box;
     }
     header .row {
         flex-direction: column;
@@ -201,38 +239,41 @@ color: grey;
    }
 
    .title-a {
-    width: 200px;
-    margin: 10px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
    }
    .title-h1 {
-    width: 200px;
-    margin: 10px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
    }
 
 .count {
     width: 200px;
-    margin: 10px;
+    margin: 0 auto;
 }
 .row {
     flex-direction: column;
+    width:100%;
 }
 .divrooms .delivery {
     margin-left: 0px;
-    width: 200px;
+    width: 100%;
+    margin-top: 23px;
 }
 .divrooms .productsinfo {
-    margin-left: 0px;
-    width: 200px; 
+    width: 100%;
+    margin: 0 auto;
 }
 
 nav .container .menu ul {
     flex-direction: column;
-    width: 200px; 
-    margin: 10px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 28px;
 }
-nav .container .menu li {
-    margin: 2px;
-}
+nav .container .menu li {text-align: center;line-height: 15px;border: 1px solid lightgrey;box-shadow: 1px 3px 3px #969191;margin-top: 3px;}
 
 }
 
