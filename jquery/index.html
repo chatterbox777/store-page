@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>jQuery Увеличение Изображений (okzoom.js)</title>
+	<style>
+		body {
+			background: none repeat scroll 0 0 #2f3238;
+			color: #fff;
+		    font-family: Arial,sans-serif;
+		    font-size: 1em;
+		    font-weight: 400;
+		}
+		#example {
+	      box-shadow: 0 3px 5px #888;
+	      height: 200px;
+	    }
+		a {
+		    color: #3498db;
+		    text-decoration: none;
+		    display: inline-block;
+		    letter-spacing: 1px;
+		    padding: 1em 2em;
+		    text-decoration: none;
+		    font-weight: 800;
+		}
+    </style>
+</head>
+
+<body>
+	<div class="codrops-top clearfix">
+		<span class="right"><a title="Вернуться к статье" href="http://www.sitehere.ru/jquery-uvelichenie-kartinki"><span>Вернуться к статье</span></a></span>
+	</div>
+	<div style="text-align:center;">
+		<h1 style="margin:150px auto 40px auto;">jQuery Увеличение Изображений (okzoom.js)</h1>
+		<p>Наведите на изображение ниже чтобы увидеть эффект.</p>
+		<img id="example" src="demo.jpg">
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/okzoom.js"></script>
+	<script>
+		$(function(){
+	      $('#example').okzoom({
+	        width: 200,
+	        height: 200,
+	        border: "1px solid black",
+	        shadow: "0 0 5px #000"
+	      });
+	    });
+	</script>
+</body>
+</html>

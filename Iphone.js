@@ -23,3 +23,29 @@ document.getElementById("glass").style.top = (y + dy) * (1 - fact);
 document.getElementById("glass").style.clip = "rect(" +y1 +"px," +x2 +"px," +y2 +"px,"+x1 +"px)";
 
 }
+
+document.getElementById('nav').onmouseover = function(event) {
+    var target = event.target;
+    if (target.className == 'row') {
+    var menu_disclaimer = target.getElementsByClassName('menu');
+    closeMenu();
+    menu_disclaimer[0].style.display='block';
+    }
+} 
+
+document.onmouseover=function (event) {
+    var target = event.target;
+    console.log(event.target);
+    if (target.className!= 'row' && target.className!='menu') {
+        close_menu();
+    }
+
+}
+
+function close_menu() {
+    var  nav = document.getElementById('nav');
+    var menu = document.getElementsByClassName('menu');
+    for (var i=0; i<menu.length; i++) {
+        menu[i].style.display="none";
+    }
+}

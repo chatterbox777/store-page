@@ -1,11 +1,4 @@
-.container {
-  width: 1170px;
-  color: black;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .row {
     display: flex;
   flex-direction: row;
@@ -21,7 +14,8 @@
     padding: 0 5px;
 }
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+    color: black !important;
 }
 a:hover {
     color: red;
@@ -30,7 +24,7 @@ h1 {
     font-size: 22px;
 }
 .title {
-    width: 625px;
+    margin-top: 30px;
 }
 .title-h1 span {
     background: #8cb400;
@@ -41,20 +35,22 @@ h1 {
 .title-h1 span::after {
     content: "";
     position: absolute;
-    top: 45px;
+    top: 58px;
     left: 1130,5px;
     border-top: 10.5px solid transparent;
     border-left: 10px solid #8cb400;
     border-bottom: 10.5px solid transparent;
+}
+.title-h1 a:hover {
+color: red !important;
 }
 .count-text-info {
     background-color: #ff5a5a;
     box-sizing: border-box;
 }
 .count {
-    width: 250px;
-    height: 200px;
     box-shadow: 0px 2px 11px 0px lightgrey;
+    margin-top: 20px;
 }
 .count-text-info {
     text-align: center;
@@ -131,27 +127,22 @@ nav .row {
     background-color: white;
 }
 hr {
-    width: 1067px;
+    width: 78%;
     margin-top: 0;
-    box-shadow: 2px 2px 5px 1px lightgrey;
+    box-shadow: -1px 1px 4px 0px black;
+    border-top: 0px solid gray !important;
 }
 .productsinfo ul {
     padding-left: 15px;
     color: #6b6b6bf2;
     font-size: 15px;
 }
-.productsinfo {
-    margin: 0 103px;
-    height: 170px;
-    width: 333px;
-}
+
 .appleimg {
     width: 50px;
     height: 50px;
 }
-.logoapple {
-    margin: 0 103px;
-}
+
 .mainboxpage1 {
     display: flex;
     flex-direction: column;
@@ -161,7 +152,10 @@ hr {
     font-weight: 700;
     color: #222;
 }
-.divrooms .delivery {justify-content: flex-end;margin-left: 235px;width: 250px;height: 119px;box-shadow: 0px 5px 9px 0px lightgrey;}
+.divrooms .delivery {
+    height: 119px;
+    box-shadow: 0px 5px 9px 0px lightgrey;
+}
 .newcount {
 
 }
@@ -188,94 +182,7 @@ margin: 8px 27px;
 color: grey;
 }
 
-@media (max-width: 321px) {
-    .title-h1 span::after {
-        content: "";
-        position: absolute;
-        top: 295px;
-        left: 1130,5px;
-        border-top: 10.5px solid transparent;
-        border-left: 9px solid #8cb400;
-        border-bottom: 10.5px solid transparent;
-    }
-    .appleimg {
-        text-align: left;
-    }
-    .logoapple {
-margin-top: 47px;
-    }
-    .phoneimg {
-        width: 100%;
-        text-align: center;
-    }
-    nav {
-        width: 100%;
-        margin: 0 auto;
-    }
-    .title {
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-    main {
-        width: 100%;
-    }
 
-    hr {
-        display: block;
-        width: 100%;
-    }
-    .container {
-        display: flex;
-        width: 100%;
-        box-sizing: border-box;
-    }
-    header .row {
-        flex-direction: column;
-    }
-   .logo {
-    width: 200px;
-    margin: 10px;
-   }
-
-   .title-a {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-   }
-   .title-h1 {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-   }
-
-.count {
-    width: 200px;
-    margin: 0 auto;
-}
-.row {
-    flex-direction: column;
-    width:100%;
-}
-.divrooms .delivery {
-    margin-left: 0px;
-    width: 100%;
-    margin-top: 23px;
-}
-.divrooms .productsinfo {
-    width: 100%;
-    margin: 0 auto;
-}
-
-nav .container .menu ul {
-    flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 28px;
-}
-nav .container .menu li {text-align: center;line-height: 15px;border: 1px solid lightgrey;box-shadow: 1px 3px 3px #969191;margin-top: 3px;}
-
-}
 
 .h1_page2 {
     padding: 34px;
@@ -334,10 +241,97 @@ box-shadow: 1px black;
   }
   .ex1 {
 font-size: 18px;
-color: #33c;
+color: #33c !important;
 font-weight: bold;
   }
   .ex2 {
     font-size: 15px;
-    color: #070;
+    color: #070 !important;
+  }
+
+  .form-control {
+      
+  }
+  .modal-content {
+      background-color: royalblue !important;
+  }
+  .modal-footer .btn {
+
+width: 100%;
+  }
+
+  .firstLink__border {
+      border-bottom: 3px solid #f2df00;
+  }
+
+  .secondLink__border {
+    border-bottom: 3px solid #f2df00;
+  }
+  .thirdLink__border {
+    border-bottom: 3px solid #f2df00;
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px) {
+      .title-a {
+          text-align: center;
+      }
+      .title-h1 {
+        text-align: center;
+    }
+
+
+.phoneimg {
+    text-align: center;
+}
+.description .col-md-12:nth-child(2) {
+    text-align: center;
+}
+.productsinfo ul {
+    list-style-type: none;
+}
+nav .menu li:nth-child(1) {
+    margin-left: 7%;
+}
+
+.title-h1 span::after {
+    top: 84px;
+}
+.description .col-md-12:nth-child(3) {
+    margin-top: 20px;
+}
+
+  }
+
+
+  @media screen and (max-width:767px) {
+      .logo {
+          text-align: center;
+      }
+
+      .title {
+          text-align: center;
+      }
+      .menu ul {
+          display: unset;
+          text-align: center;
+      }
+      .menu li {
+          display: block !important;
+      }
+      .phoneimg {
+          text-align: center;
+      }
+      .description .col-md-12:nth-child(2) {
+        text-align: center;
+    }
+    .productsinfo ul {
+        list-style-type: none;
+    }
+
+    .title-h1 span::after {
+        top: 85px ;
+    }
+    .description .col-md-12:nth-child(3) {
+        margin-top: 20px;
+    }
   }
