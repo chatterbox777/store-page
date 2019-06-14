@@ -186,10 +186,11 @@ color: grey;
 
 
 .h1_page2 {
-    padding: 34px;
+    padding: 34px 0px;
     font-size: 21px;
     margin-top: 50px;
     border-bottom: 1px solid lightgrey;
+    margin-bottom: 34px;
 }
 .h1_page2::after {
 color: black;
