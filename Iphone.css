@@ -81,6 +81,7 @@ color: red;
     display: block;
     text-align: center;
     margin: 15px;
+    padding-bottom: 10px;
 }
 .count-sum-btn-style {
     width: 91%;
@@ -269,6 +270,16 @@ width: 100%;
   }
   .thirdLink__border {
     border-bottom: 3px solid #f2df00;
+  }
+
+  .divrooms .container:nth-child(2) .row__align {
+      text-align: center;
+
+  }
+
+  .divrooms .container:nth-child(2) .row__align .col-12 iframe {
+      width: 100% !important;
+
   }
 
   @media screen and (min-width:768px) and (max-width:1024px) {
