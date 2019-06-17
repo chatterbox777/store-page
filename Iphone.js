@@ -49,3 +49,13 @@ function close_menu() {
         menu[i].style.display="none";
     }
 }
+
+function onclick_img (){
+    var pointer = document.getElementsByClassName('pointer');
+    var phoneimg = document.getElementById('example');
+
+    if (pointer) {
+phoneimg.src = pointer.src;
+    }
+return onclick_img();
+}
