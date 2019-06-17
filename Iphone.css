@@ -376,3 +376,9 @@ nav .menu li:nth-child(1) {
         padding-left: 0px !important;
     }
   }
+
+  @media screen and (min-device-width:768px) and (max-device-width:991px) {
+    .title-h1 span::after {
+        top: 84px;
+    }
+  }
